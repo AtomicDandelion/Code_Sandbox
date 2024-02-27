@@ -1,4 +1,3 @@
-from __future__ import print_function
 from mailmerge import MailMerge
 
 # FULL path to template with mailmerge fields
