@@ -13,5 +13,5 @@ A sandbox of code (mostly scripts) with which I tinker.
 
 	e. To execute, run the command: ./NAME_OF_OBJECT_EXECUTABLE
 
-4. resume_builder.py - I grew tired of finding the exact location within my resume template to modify the position and company to which I was applying. Thus, I've created a script to accelerate the process. The next step is to make the key logic more modular.
+4. resume_builder.py - I grew tired of finding the exact location within my resume template to modify the position and company to which I was applying. Thus, I've created a script to accelerate the process by passing arguments as arrays to the document merging process. Thus, the output resume files will automatically have distinct names based on the array element used as an argument for the for loop iteration in which it was created. The next step is to make the key logic more modular.
 5. shutdown.bat - Windows batch file to force shutdown the machine immediately.
