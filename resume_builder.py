@@ -21,7 +21,7 @@ if (len(var_position) == len(var_company) and len(var_position) == len(var_next_
 			Company=var_company[x],
 			Next=var_next_position[x]
 		)
-		document.write('['+var_position[x]+'-'+var_company[x]+']name-year.docx')
+		document.write('['+var_position[x]+' - '+var_company[x]+']name-year.docx')
 		print("Resume", (x+1),"of",len(var_position), "created")
 else:
 	print("Var array lengths NOT EQUAL, please inspect and modify accordingly!")
